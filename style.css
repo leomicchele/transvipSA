@@ -243,6 +243,22 @@ h6 {
 	border-radius: 3px;
 	margin-top: 30px;
 }
+/* .container-certificaciones {
+	padding: 0 15px;
+} */
+
+.container-certificaciones_iso {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	justify-content: center;
+	border: 1px solid black;
+	flex-wrap: wrap;
+	padding: 5px;
+	gap: 15px;
+}
+
+
 .bg-grey {
 	background-color: #fafafa;
 }
@@ -549,6 +565,22 @@ h6 {
 .banner h1 {
 	font-size: 30px;
 }
+
+.container-certificaciones {
+	padding: 0 15px;
+}
+.container-certificaciones_iso {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	justify-content: center;
+	border: 1px solid black;
+	flex-wrap: wrap;
+	padding: 5px;
+	gap: 15px;
+	text-align: center;
+}
+
 .section-title p {
 	width: 100%;
 }
