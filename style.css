@@ -144,7 +144,7 @@ h6 {
 }
 
 .banner-overlay > .container {
-	margin-top: 250px;
+	margin-top: 300px;
     padding: 20px;
 	-webkit-box-shadow: 1px 5px 5px 0px rgb(0 0 0 / 36%);
 	background: #ffffff;
@@ -157,6 +157,7 @@ h6 {
 	position: absolute;
 	top: 0;
 	right: 0;
+	/* width: 100%; */
   }
 
 
@@ -580,6 +581,11 @@ h6 {
 	font-size: 13px;
 	text-align: center;
 	padding:7px 0px;
+}
+@media all and (min-width:1600px) {
+	#bg-video {
+		width: 100%;
+	}
 }
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
