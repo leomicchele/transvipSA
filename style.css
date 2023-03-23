@@ -264,9 +264,11 @@ h6 {
 	background: white;
 	outline: #ffaf53 solid 2px !important;
 }
-/* .container-certificaciones {
-	padding: 0 15px;
-} */
+.container-certificaciones {
+	/* padding: 0 15px; */
+	margin-bottom: 50px;
+
+}
 
 .container-certificaciones_iso {
 	display: flex;
@@ -610,6 +612,7 @@ h6 {
 
 .container-certificaciones {
 	padding: 0 15px;
+	margin-bottom: 50px;
 }
 .container-certificaciones_iso {
 	display: flex;
