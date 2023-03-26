@@ -610,7 +610,7 @@ h6 {
 	font-size: 30px;
 }
 
-.container-certificaciones {
+.container-certificaciones, .container-servicios {
 	padding: 0 15px;
 	margin-bottom: 50px;
 }
@@ -624,6 +624,15 @@ h6 {
 	padding: 5px;
 	gap: 15px;
 	text-align: center;
+}
+
+.container-imagen-certificado {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container-imagen-certificado img:nth-child(1) {
+	width: 100%;
 }
 
 .section-title p {
